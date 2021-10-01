@@ -177,6 +177,11 @@
     typedef enum { false, true } bool;
 #endif
 
+typedef struct Peca {
+    int valor;
+    int imagem;
+} Peca;
+
 // Vector2 type
 typedef struct Vector2 {
     int x;
